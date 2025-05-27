@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Grows to fill space, pushing the footer down */
+.content-wrap {
+  flex: 1;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.character-entry {
+  margin: 5px 0;
+}
+
+input, select {
+  margin-right: 10px;
+}
+
+footer {
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
