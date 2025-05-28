@@ -27,6 +27,17 @@ input, select {
   margin-right: 10px;
 }
 
+.results {
+  white-space: pre-wrap;
+  background: #f9f9f9;
+  padding: 1em;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
 footer {
     position: fixed;
   bottom: 0;
